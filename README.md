@@ -2,6 +2,12 @@
 
 Simple multiset permutation iterator that operates on numbers and strings.
 
+## Install
+
+```
+npm install multiset-permutation
+```
+
 ## Sample usage
 
 ```

@@ -10,11 +10,25 @@ npm install multiset-permutation
 
 ## Sample usage
 
+Import using require:
+
 ```
-const mpi = new MultisetPermutationIterator([1, 1, 2, 3]);
+var MultiSetPermutationIterator = require('multiset-permutation').default;
+```
+
+Import using import:
+
+```
+import MultisetPermutationIterator from 'multiset-permutation';
+```
+
+Obtain all permutations:
+
+```
+var mpi = new MultisetPermutationIterator([1, 1, 2, 3]);
 
 while (mpi.hasNext()) {
-  const permutation = mpi.next();
+  var permutation = mpi.next();
 }
 ```
 

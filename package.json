@@ -1,6 +1,6 @@
 {
   "name": "multiset-permutation",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Iterative generation of all permutations of a multiset",
   "main": "dist/index",
   "typings": "dist/index",
